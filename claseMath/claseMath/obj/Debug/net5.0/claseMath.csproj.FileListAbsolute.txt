@@ -1,0 +1,11 @@
+/Users/cjcs1/Documents/devsecops/UNITTESTCS/practicas/claseMath/claseMath/claseMath/bin/Debug/net5.0/claseMath.deps.json
+/Users/cjcs1/Documents/devsecops/UNITTESTCS/practicas/claseMath/claseMath/claseMath/bin/Debug/net5.0/claseMath.dll
+/Users/cjcs1/Documents/devsecops/UNITTESTCS/practicas/claseMath/claseMath/claseMath/bin/Debug/net5.0/ref/claseMath.dll
+/Users/cjcs1/Documents/devsecops/UNITTESTCS/practicas/claseMath/claseMath/claseMath/bin/Debug/net5.0/claseMath.pdb
+/Users/cjcs1/Documents/devsecops/UNITTESTCS/practicas/claseMath/claseMath/claseMath/obj/Debug/net5.0/claseMath.GeneratedMSBuildEditorConfig.editorconfig
+/Users/cjcs1/Documents/devsecops/UNITTESTCS/practicas/claseMath/claseMath/claseMath/obj/Debug/net5.0/claseMath.AssemblyInfoInputs.cache
+/Users/cjcs1/Documents/devsecops/UNITTESTCS/practicas/claseMath/claseMath/claseMath/obj/Debug/net5.0/claseMath.AssemblyInfo.cs
+/Users/cjcs1/Documents/devsecops/UNITTESTCS/practicas/claseMath/claseMath/claseMath/obj/Debug/net5.0/claseMath.csproj.CoreCompileInputs.cache
+/Users/cjcs1/Documents/devsecops/UNITTESTCS/practicas/claseMath/claseMath/claseMath/obj/Debug/net5.0/claseMath.dll
+/Users/cjcs1/Documents/devsecops/UNITTESTCS/practicas/claseMath/claseMath/claseMath/obj/Debug/net5.0/ref/claseMath.dll
+/Users/cjcs1/Documents/devsecops/UNITTESTCS/practicas/claseMath/claseMath/claseMath/obj/Debug/net5.0/claseMath.pdb
