@@ -1,5 +1,6 @@
 ﻿using NUnit.Framework;
 using claseMath;
+using System.Linq;
 
 namespace claseMath.Test
 {
@@ -41,7 +42,7 @@ namespace claseMath.Test
         [TestCase(1,2,2)]
         [TestCase(2,1,2)]
         [TestCase(1,1,1)]        
-        public void Obtener_el_Valor_Mayor(int a, int b, int valoresperado)
+        public void Add_Obtener_el_Valor_Mayor(int a, int b, int valoresperado)
         {
             var result = _math.Max(a, b);
 
@@ -50,7 +51,7 @@ namespace claseMath.Test
         }
 
         [TestCase(1, 1, 7)]
-        public void Obtener_el_Valor_Mayor_1(int a, int b, int valoresperado)
+        public void Add_Obtener_el_Valor_Mayor_1(int a, int b, int valoresperado)
         {
             var result = _math.Max(a, b);
 
@@ -58,5 +59,38 @@ namespace claseMath.Test
             //Assert.AreEqual(result, 4);
         }
 
+        [Test]
+        public void GetOddNumbers_Lista_No_Nula()
+        {
+            var result = _math.GetOddNumbers(5);
+
+            Assert.That(result, Is.Not.Empty);        
+
+            //Assert.That(result + 6, Is.EqualTo(valoresperado));
+            //Assert.AreEqual(result, 4);
+        }
+
+        [Test]
+        public void GetOddNumbers_Cantidad_de_Elementos()
+        {
+            var result = _math.GetOddNumbers(5);
+
+            Assert.That(result.Count(), Is.EqualTo(3));
+        }
+
+
+        [Test]
+        public void GetOddNumbers_Contenga_En_Base_Al_limite_Los_Impares()
+        {
+            var result = _math.GetOddNumbers(5);
+
+            //Assert.That(result, Does.Contain(1));
+            //Assert.That(result, Does.Contain(3));
+            //Assert.That(result, Does.Contain(5));
+
+            Assert.That(result, Is.EquivalentTo(new[] { 1, 3, 5 }));
+
+
+        }
     }
 }
