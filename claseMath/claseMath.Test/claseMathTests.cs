@@ -58,5 +58,36 @@ namespace claseMath.Test
             //Assert.AreEqual(result, 4);
         }
 
+
+        [Test]
+        public void Resta_Dos_Argumentos()
+        {
+            var result = _math.Subtract(4, 2);
+            
+
+            Assert.That(result, Is.EqualTo(2));
+        }
+
+        [Test]
+        public void Resta_Dos_Argumentos_1()
+        {
+            var result = _math.Subtract(2, 2);
+
+            Assert.That(result, Is.EqualTo(0));
+            
+        }
+
+        [Test]
+        [TestCase(1, 2, -1)]
+        [TestCase(2, 1, 1)]
+        [TestCase(7, 4, 3)]
+        public void Resta_Dos_Argumentos_1(int a, int b, int valoresperado)
+        {
+            var result = _math.Subtract(a, b);
+
+            Assert.That(result, Is.EqualTo(valoresperado));
+
+        }
+
     }
 }

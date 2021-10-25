@@ -23,6 +23,9 @@ namespace claseMath
                     yield return i;
         }
 
-
+        public object Subtract(int a, int b)
+        {
+            return a - b;
+        }
     }
 }
