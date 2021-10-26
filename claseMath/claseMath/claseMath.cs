@@ -16,6 +16,8 @@ namespace claseMath
             return (a > b) ? a : b;
         }
 
+        
+
         public IEnumerable<int> GetOddNumbers(int limit)
         {
             for (var i = 0; i <= limit; i++)
@@ -23,6 +25,13 @@ namespace claseMath
                     yield return i;
         }
 
+        public object Div(int v1, int v2)
+        {
 
+            if (v2 == 0)
+                throw new InvalidOperationException("Divide By Zero Error");
+
+            return v1 / v2;
+        }
     }
 }

@@ -1,4 +1,6 @@
 ﻿using NUnit.Framework;
+using System;
+
 using claseMath;
 using System.Linq;
 
@@ -8,15 +10,12 @@ namespace claseMath.Test
     {
         private claseMath _math;
 
-        [OneTimeSetUp]
-
+       
         [SetUp]
         public void Setup()
         {
             //lo que valla aqui
             _math = new claseMath();
-           
-
         }
 
         [Test]
@@ -93,5 +92,31 @@ namespace claseMath.Test
             Assert.That(result, Is.Unique);
 
         }
+
+        [Test]
+        [TestCase(6, 2, 3)]
+        [TestCase(4, 2, 2)]
+        [TestCase(8, 2, 4)]
+        public void Div_Dos_Numeros(int dividendo, int divisor, int valor_esperado)
+        {
+            var result = _math.Div(dividendo, divisor);
+
+            Assert.AreEqual(result, valor_esperado);            
+
+        }
+
+        [Test]        
+        public void Div_Excepcion_Div_Zero()
+        {
+
+
+            string expectedErrorMessage = "Divide By Zero Error";
+
+            var ex = Assert.Throws<InvalidOperationException>(() => _math.Div(1,0));
+
+            Assert.AreEqual(expectedErrorMessage,ex.Message);
+
+        }
+
     }
 }

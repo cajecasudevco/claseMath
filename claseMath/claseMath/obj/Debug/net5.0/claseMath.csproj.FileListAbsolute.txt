@@ -9,3 +9,4 @@
 /Users/cjcs1/Documents/devsecops/UNITTESTCS/practicas/claseMath/claseMath/claseMath/obj/Debug/net5.0/claseMath.dll
 /Users/cjcs1/Documents/devsecops/UNITTESTCS/practicas/claseMath/claseMath/claseMath/obj/Debug/net5.0/ref/claseMath.dll
 /Users/cjcs1/Documents/devsecops/UNITTESTCS/practicas/claseMath/claseMath/claseMath/obj/Debug/net5.0/claseMath.pdb
+/Users/cjcs1/Documents/devsecops/UNITTESTCS/practicas/claseMath/claseMath/claseMath/obj/Debug/net5.0/claseMath.csproj.AssemblyReference.cache

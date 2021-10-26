@@ -1,28 +1,10 @@
-﻿<Properties>
-  <MonoDevelop.Ide.ItemProperties.claseMath FirstBuild="True" />
-  <MonoDevelop.Ide.ItemProperties.claseMath.Test FirstBuild="True" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="claseMath.Test/UnitTest1.cs">
+﻿<Properties StartupConfiguration="{2AFCF996-7E4A-46A6-8C21-72FD86C0B2BE}|Default">
+  <MonoDevelop.Ide.ItemProperties.claseMath.Test PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="claseMath/claseMath.cs">
     <Files>
-      <File FileName="claseMath/Class1.cs" Line="9" Column="1" />
-      <File FileName="claseMath.Test/UnitTest1.cs" Line="1" Column="1" />
+      <File FileName="claseMath/claseMath.cs" Line="31" Column="1" />
+      <File FileName="claseMath.Test/claseMathTests.cs" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="claseMath" expanded="True">
-            <Node name="claseMath" expanded="True" />
-            <Node name="claseMath.Test" expanded="True">
-              <Node name="UnitTest1.cs" selected="True" />
-            </Node>
-          </Node>
-        </State>
-      </Pad>
-      <Pad Id="MonoDevelop.UnitTesting.TestPad">
-        <State name="__root__">
-          <Node name="claseMath" expanded="True" selected="True" />
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
